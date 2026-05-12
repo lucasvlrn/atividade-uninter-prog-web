@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link
+      rel="shortcut icon"
+      href="https://avatars.githubusercontent.com/u/108629828?v=4"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Menu de navegação -->
+    <header class="main-header">
+      <div class="header-container">
+        <a href="#" class="logo">Olá<span>.</span></a>
+        <nav class="nav-menu" aria-label="Navegação principal">
+          <a href="#sobre-mim" class="nav-link active">Sobre mim</a>
+          <a href="#formacao" class="nav-link">Formação</a>
+          <a href="#portfolio" class="nav-link">Portfólio</a>
+          <a href="#contato" class="nav-link">Contato</a>
+        </nav>
+      </div>
+    </header>
+    <!-- Página sobre mim, parte onde me apresento -->
+    <main>
+      <section id="sobre-mim" class="page-section">
+        <div class="section-container">
+          <code class="section-subtitle">01 / Quem eu sou</code>
+          <h2>Sobre mim</h2>
+          <div id="section-content-about" class="section-content">
+            <p class="lead-text">
+              Me chamo Lucas, tenho 19 anos e sou um desenvolvedor apaixonado
+              por programação, tecnologias de backend e hardware. Comecei minha
+              jornada na programação aos 15 anos e, desde então, venho me
+              dedicando a aprender constantemente, criando projetos que me
+              desafiam e me motivam.
+            </p>
+            <p class="lead-text">
+              Nas horas livres, gosto de ler, sair com amigos, jogar, assistir
+              futebol (paleta de cores reflete meu time do coração: Santos FC) e
+              ouvir músicas. Esses momentos me ajudam a renovar as ideias e
+              enxergar os problemas com mais clareza e criatividade.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Página de formação, aqui é onde mostro meu histórico acadêmico e cursos -->
+      <section id="formacao" class="page-section">
+        <div class="section-container">
+          <code class="section-subtitle">02 / Conhecimento</code>
+          <h2>Formação</h2>
+          <div class="section-content">
+            <span class="body-text">
+              <p>
+                <i>
+                  ETEC DE PERUÍBE - Desenvolvimento de Sistemas (2022 até 2024)
+                </i>
+              </p>
+              <p>
+                <i>
+                  Santander Open Academy e Digital Innovation One - Linux para
+                  Iniciantes (2025)
+                </i>
+              </p>
+              <p>
+                <i>
+                  Centro Universitário Internacional (UNINTER) - Ciência da
+                  Computação (Atualmente)
+                </i>
+              </p>
+            </span>
+          </div>
+        </div>
+      </section>
+      <!-- Página de projetos, onde falo sobre meu projeto mais importante -->
+      <section id="portfolio" class="page-section">
+        <div class="section-container">
+          <code class="section-subtitle">03 / Trabalho</code>
+          <h2>Portfólio</h2>
+          <div class="section-content">
+            <p class="body-text">
+              Meu maior projeto trata-se da <b>SignAux</b>, meu TCC na Etec de
+              Peruíbe. Preocupado com a acessibilidade das pessoas no world
+              digital e a inclusão de pessoas deficientes auditivas no meio
+              social, fui responsável pelo desenvolvimento do BackEnd de uma
+              aplicação voltada para ensinar LIBRAS e transcrever LIBRAS para
+              texto em situações reais.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Página de contato -->
+      <section id="contato" class="page-section">
+        <div class="section-container">
+          <code class="section-subtitle">04 / Conexão</code>
+          <h2>Contato</h2>
+          <div class="section-content">
+            <span id="contact-body-text" class="body-text">
+              <p>
+                Você pode me encontrar em todas as redes utilizando
+                <b>@lucasvlrn</b>. Abaixo uma lista para você conhecer minhas
+                principais redes, meu trabalho, meus projetos e meu instagram.
+              </p>
+              <a href="https://www.linkedin.com/in/lucasvlrn/">Linkedin</a>
+              <a href="https://github.com/lucasvlrn">Github</a>
+              <a href="https://instagram.com/lucasvlrn">Instagram</a>
+
+              <p>Ou pode simplesmente mandar algo de interessante para mim!</p>
+            </span>
+
+            <form class="contact-form" action="#" method="POST">
+              <div class="form-group">
+                <label for="name">Nome</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Seu nome completo"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="seu.email@provedor.com"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Escreva sua mensagem aqui..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-container">
+        <p>&copy; 2026 Lucas Vilarinho - Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- Importação do Javascript no fim para  -->
+    <script src="script.js"></script>
+  </body>
+</html>
